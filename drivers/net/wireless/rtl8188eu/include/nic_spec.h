@@ -1,7 +1,7 @@
 /******************************************************************************
  *
  * Copyright(c) 2007 - 2011 Realtek Corporation. All rights reserved.
- *                                        
+ *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of version 2 of the GNU General Public License as
  * published by the Free Software Foundation.
@@ -16,13 +16,11 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110, USA
  *
  *
- ******************************************************************************/	
+ ******************************************************************************/
 
 
 #ifndef __NIC_SPEC_H__
 #define __NIC_SPEC_H__
-
-#include <drv_conf.h>
 
 #define RTL8711_MCTRL_		(0x20000)
 #define RTL8711_UART_		(0x30000)
@@ -43,5 +41,4 @@
 #include <rtl8711_bitdef.h>
 
 
-#endif // __RTL8711_SPEC_H__
-
+#endif /*  __RTL8711_SPEC_H__ */
